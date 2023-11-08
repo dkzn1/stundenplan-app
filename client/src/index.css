@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-bg: 0deg 0% 100%;
+    --color-text1: 0deg 0% 0%;
+    --color-text2: 0deg 0% 5%;
+    --color-text3: 0deg 0% 9%;
+    --color-accent1: 0deg 0% 96%;
+    --color-accent2: 0deg 0% 94%;
+    --color-accent3: 0deg 0% 91%;
+  }
+
+  :root[class='dark'] {
+    --color-bg: 260deg 4% 17%;
+    --color-text1: 0deg 0% 100%;
+    --color-text2: 240deg 7% 96%;
+    --color-text3: 240deg 7% 92%;
+    --color-accent1: 264deg 4% 25%;
+    --color-accent2: 266deg 4% 30%;
+    --color-accent3: 266deg 4% 35%;
+  }
+}
